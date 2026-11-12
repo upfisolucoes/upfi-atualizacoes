@@ -1,32 +1,32 @@
 {
   "schema": 1,
-  "version": "1.1.0-beta.4",
-  "publishedAt": "2026-11-12T22:41:38.063Z",
-  "notes": "PDV somente com vendas e cadastros reais. A opção Revisar catálogo inicial permite ajustar preços e informar o estoque real antes de cadastrar os produtos e serviços sugeridos, sem duplicar itens existentes. O desconto da próxima visita agora é aplicado automaticamente ao cliente selecionado e acompanha as alterações do carrinho. O benefício fica reservado enquanto a venda aguarda sincronização.",
+  "version": "1.1.0-beta.5",
+  "publishedAt": "2026-11-12T23:14:50.490Z",
+  "notes": "As janelas de relatórios agora oferecem Imprimir / escolher impressora e Salvar como PDF. O PDF permite escolher a pasta e o nome do arquivo, sem depender de uma impressora instalada. Mantém relatórios com várias páginas, em retrato ou paisagem. Correção também para a edição legada do Windows. Não é necessário reaplicar SQL nem reinstalar manualmente.",
   "artifacts": {
     "modern": {
       "kind": "app",
       "runtime": "45.3.0",
-      "size": 5334988,
-      "sha256": "bc60513ed2d73e92da92a365f313eb7682e2eb03e383fea8481c8cd7000743a5",
+      "size": 5337996,
+      "sha256": "cea6071f2b58e6dda8cd04582e0cff35d07f5eace0b8b80c610c1adf07de85ac",
       "parts": [
         {
-          "path": "releases/1.1.0-beta.4/modern-app-001.bin",
-          "size": 5334988,
-          "sha256": "bc60513ed2d73e92da92a365f313eb7682e2eb03e383fea8481c8cd7000743a5"
+          "path": "releases/1.1.0-beta.5/modern-app-001.bin",
+          "size": 5337996,
+          "sha256": "cea6071f2b58e6dda8cd04582e0cff35d07f5eace0b8b80c610c1adf07de85ac"
         }
       ]
     },
     "legacy": {
       "kind": "app",
       "runtime": "22.3.27",
-      "size": 5334999,
-      "sha256": "a0de7d7b154d697f6174cf3230fe0691f5bc9b102221461a21195c6a3c4bb0ed",
+      "size": 5337959,
+      "sha256": "820d15bab8418d4995a61510b1ad4cd89349c98b121edd9dc87796ba8fff87df",
       "parts": [
         {
-          "path": "releases/1.1.0-beta.4/legacy-app-001.bin",
-          "size": 5334999,
-          "sha256": "a0de7d7b154d697f6174cf3230fe0691f5bc9b102221461a21195c6a3c4bb0ed"
+          "path": "releases/1.1.0-beta.5/legacy-app-001.bin",
+          "size": 5337959,
+          "sha256": "820d15bab8418d4995a61510b1ad4cd89349c98b121edd9dc87796ba8fff87df"
         }
       ]
     }

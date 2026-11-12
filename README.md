@@ -1,6 +1,6 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.1.0-beta.4**.
+Canal público de distribuição. Versão atual: **1.1.0-beta.5**.
 
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
@@ -31,3 +31,9 @@ O PDV trabalha somente com o catálogo real da empresa. A gestão pode abrir **P
 O desconto da próxima visita é aplicado automaticamente ao selecionar o cliente e acompanha o subtotal. O benefício fica reservado enquanto a venda aguarda sincronização e seu uso único continua validado no servidor.
 
 Quem já instalou a `1.1.0-beta.3` deve usar **Minha conta → Atualizações do programa → Atualizar agora**, seguido de **Instalar e reiniciar** quando for conveniente. Não é necessário repetir o SQL. Os instaladores iniciais abaixo continuam ativando o recurso na versão `1.1.0-beta.3`; depois o programa oferece a versão mais recente.
+
+## Novidades da 1.1.0-beta.5
+
+As janelas de relatórios, etiquetas e comprovantes mostram **Imprimir / escolher impressora** e **Salvar como PDF**. A primeira opção abre a seleção de impressora do Windows; a segunda permite escolher a pasta e o nome do PDF, mesmo sem uma impressora instalada. Os controles não aparecem no documento, e os relatórios mantêm suas páginas e orientação.
+
+Quem já instalou a `1.1.0-beta.3` ou mais recente pode usar **Minha conta → Atualizações do programa → Atualizar agora**, seguido de **Instalar e reiniciar** quando for conveniente. Não é necessário repetir o SQL ou desinstalar o programa.
