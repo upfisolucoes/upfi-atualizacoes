@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "version": "1.1.0-beta.3",
+  "publishedAt": "2026-11-12T20:52:58.657Z",
+  "notes": "Aviso de novas versões com escolha do usuário. Mais tarde adia o lembrete por quatro horas, mesmo depois de fechar e abrir o programa. O download só começa quando solicitado, e a instalação aguarda a confirmação para reiniciar. Configurações, dados locais e operações pendentes são preservados.",
+  "artifacts": {
+    "modern": {
+      "kind": "app",
+      "runtime": "45.3.0",
+      "size": 5333604,
+      "sha256": "53c2903e3b27a04cf338443272dabddd2ed2ff313bb38a69e4d690c1bb7a1bcb",
+      "parts": [
+        {
+          "path": "releases/1.1.0-beta.3/modern-app-001.bin",
+          "size": 5333604,
+          "sha256": "53c2903e3b27a04cf338443272dabddd2ed2ff313bb38a69e4d690c1bb7a1bcb"
+        }
+      ]
+    },
+    "legacy": {
+      "kind": "app",
+      "runtime": "22.3.27",
+      "size": 5333618,
+      "sha256": "899bde30f55896c69481366d6f2895a72ef9a628010aa6a700fe902e371e56ee",
+      "parts": [
+        {
+          "path": "releases/1.1.0-beta.3/legacy-app-001.bin",
+          "size": 5333618,
+          "sha256": "899bde30f55896c69481366d6f2895a72ef9a628010aa6a700fe902e371e56ee"
+        }
+      ]
+    }
+  }
+}
