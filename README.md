@@ -1,6 +1,6 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.1.0-beta.3**.
+Canal público de distribuição. Versão atual: **1.1.0-beta.4**.
 
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
@@ -23,3 +23,11 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.1.0-beta.4
+
+O PDV trabalha somente com o catálogo real da empresa. A gestão pode abrir **PDV → Revisar catálogo inicial**, revisar preços e informar as quantidades reais para cadastrar as sugestões como produtos e serviços da empresa. Cadastros existentes são preservados.
+
+O desconto da próxima visita é aplicado automaticamente ao selecionar o cliente e acompanha o subtotal. O benefício fica reservado enquanto a venda aguarda sincronização e seu uso único continua validado no servidor.
+
+Quem já instalou a `1.1.0-beta.3` deve usar **Minha conta → Atualizações do programa → Atualizar agora**, seguido de **Instalar e reiniciar** quando for conveniente. Não é necessário repetir o SQL. Os instaladores iniciais abaixo continuam ativando o recurso na versão `1.1.0-beta.3`; depois o programa oferece a versão mais recente.

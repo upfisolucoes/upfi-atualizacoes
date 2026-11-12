@@ -1,32 +1,32 @@
 {
   "schema": 1,
-  "version": "1.1.0-beta.3",
-  "publishedAt": "2026-11-12T20:52:58.657Z",
-  "notes": "Aviso de novas versões com escolha do usuário. Mais tarde adia o lembrete por quatro horas, mesmo depois de fechar e abrir o programa. O download só começa quando solicitado, e a instalação aguarda a confirmação para reiniciar. Configurações, dados locais e operações pendentes são preservados.",
+  "version": "1.1.0-beta.4",
+  "publishedAt": "2026-11-12T22:41:38.063Z",
+  "notes": "PDV somente com vendas e cadastros reais. A opção Revisar catálogo inicial permite ajustar preços e informar o estoque real antes de cadastrar os produtos e serviços sugeridos, sem duplicar itens existentes. O desconto da próxima visita agora é aplicado automaticamente ao cliente selecionado e acompanha as alterações do carrinho. O benefício fica reservado enquanto a venda aguarda sincronização.",
   "artifacts": {
     "modern": {
       "kind": "app",
       "runtime": "45.3.0",
-      "size": 5333604,
-      "sha256": "53c2903e3b27a04cf338443272dabddd2ed2ff313bb38a69e4d690c1bb7a1bcb",
+      "size": 5334988,
+      "sha256": "bc60513ed2d73e92da92a365f313eb7682e2eb03e383fea8481c8cd7000743a5",
       "parts": [
         {
-          "path": "releases/1.1.0-beta.3/modern-app-001.bin",
-          "size": 5333604,
-          "sha256": "53c2903e3b27a04cf338443272dabddd2ed2ff313bb38a69e4d690c1bb7a1bcb"
+          "path": "releases/1.1.0-beta.4/modern-app-001.bin",
+          "size": 5334988,
+          "sha256": "bc60513ed2d73e92da92a365f313eb7682e2eb03e383fea8481c8cd7000743a5"
         }
       ]
     },
     "legacy": {
       "kind": "app",
       "runtime": "22.3.27",
-      "size": 5333618,
-      "sha256": "899bde30f55896c69481366d6f2895a72ef9a628010aa6a700fe902e371e56ee",
+      "size": 5334999,
+      "sha256": "a0de7d7b154d697f6174cf3230fe0691f5bc9b102221461a21195c6a3c4bb0ed",
       "parts": [
         {
-          "path": "releases/1.1.0-beta.3/legacy-app-001.bin",
-          "size": 5333618,
-          "sha256": "899bde30f55896c69481366d6f2895a72ef9a628010aa6a700fe902e371e56ee"
+          "path": "releases/1.1.0-beta.4/legacy-app-001.bin",
+          "size": 5334999,
+          "sha256": "a0de7d7b154d697f6174cf3230fe0691f5bc9b102221461a21195c6a3c4bb0ed"
         }
       ]
     }
