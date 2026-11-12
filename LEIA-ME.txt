@@ -1,0 +1,23 @@
+﻿UPFI ERP 1.1.0-beta.3 - INSTALACAO INICIAL OU ATUALIZACAO
+Edicao: Windows 7 SP1/8/8.1 de 32 ou 64 bits
+
+1. Feche o Upfi ERP se estiver aberto.
+2. Extraia TODO o ZIP: botao direito > Extrair tudo.
+3. Abra INSTALAR.cmd e siga as telas do instalador.
+4. Abra o atalho Upfi ERP. Configuracoes e dados locais sao preservados.
+
+Esta instalacao completa ativa os avisos de atualizacao para quem usa versoes anteriores.
+Quando uma versao mais recente for publicada, o programa avisara sem baixar ou reiniciar sozinho.
+Mais tarde adia o lembrete por quatro horas, mesmo apos fechar e abrir o programa.
+Atualizar agora baixa o pacote; depois Instalar e reiniciar pede sua confirmacao.
+Voce tambem pode abrir Minha conta > Atualizacoes do programa.
+
+Na primeira configuracao, use a URL do Supabase do ERP e a chave publica publishable/anon.
+Faca o primeiro login com internet. Se a sincronizacao ja foi ativada no servidor,
+nao precisa repetir o SQL. As atualizacoes ficam em um canal publico, sem login do GitHub.
+
+Os instaladores ainda nao possuem assinatura digital. Homologue no Windows de destino
+antes de distribuir aos clientes. O runtime da edicao legada nao recebe manutencao de seguranca.
+
+Instalador: Upfi-ERP-Legado-1.1.0-beta.3.exe
+SHA-256: 86ef95cffa92a37866b986c0676f6dfdffb6ee767c800eccd62350cd667c43a4
