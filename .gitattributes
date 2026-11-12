@@ -1,0 +1,2 @@
+arquivos/*.bin -text -filter -diff -merge
+*.cmd -text
