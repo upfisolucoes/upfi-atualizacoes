@@ -1,32 +1,32 @@
 {
   "schema": 1,
-  "version": "1.1.0-beta.5",
-  "publishedAt": "2026-11-12T23:14:50.490Z",
-  "notes": "As janelas de relatórios agora oferecem Imprimir / escolher impressora e Salvar como PDF. O PDF permite escolher a pasta e o nome do arquivo, sem depender de uma impressora instalada. Mantém relatórios com várias páginas, em retrato ou paisagem. Correção também para a edição legada do Windows. Não é necessário reaplicar SQL nem reinstalar manualmente.",
+  "version": "1.2.0-beta.1",
+  "publishedAt": "2026-11-13T23:04:38.331Z",
+  "notes": "Ampliação comercial do Upfi ERP: orçamentos, compras, fiado e recebimentos parciais, estoque/depósitos/lotes/séries, devoluções, entregas, OS com sinal, consignados, vasilhames, contas financeiras, auditoria e relatórios CSV/PDF. Operações integradas com fila offline, validação do servidor e proteção contra duplicação. Backup com integridade e recuperação em destino vazio. Importação XML evita receber a mesma nota duas vezes.\nATIVAÇÃO ÚNICA: após atualizar, entre como gestor em Operação comercial, baixe o script e execute TODO o arquivo no SQL Editor do Supabase da empresa. Volte e use Verificar ativação. Preserve um backup antes. O programa não aplica a migração remotamente. Não exige desinstalação. Fiscal/bancos automáticos e módulos setoriais avançados ainda não estão integrados.",
   "artifacts": {
     "modern": {
       "kind": "app",
       "runtime": "45.3.0",
-      "size": 5337996,
-      "sha256": "cea6071f2b58e6dda8cd04582e0cff35d07f5eace0b8b80c610c1adf07de85ac",
+      "size": 5375002,
+      "sha256": "2be945eff27ce950f17da1daec27b912fd054e792ec84bce41d93d8145ed5da4",
       "parts": [
         {
-          "path": "releases/1.1.0-beta.5/modern-app-001.bin",
-          "size": 5337996,
-          "sha256": "cea6071f2b58e6dda8cd04582e0cff35d07f5eace0b8b80c610c1adf07de85ac"
+          "path": "releases/1.2.0-beta.1/modern-app-001.bin",
+          "size": 5375002,
+          "sha256": "2be945eff27ce950f17da1daec27b912fd054e792ec84bce41d93d8145ed5da4"
         }
       ]
     },
     "legacy": {
       "kind": "app",
       "runtime": "22.3.27",
-      "size": 5337959,
-      "sha256": "820d15bab8418d4995a61510b1ad4cd89349c98b121edd9dc87796ba8fff87df",
+      "size": 5375022,
+      "sha256": "685bff4bcc0c52474c9412d5ca51701862854733c5cb5f9a373a21939d0495a7",
       "parts": [
         {
-          "path": "releases/1.1.0-beta.5/legacy-app-001.bin",
-          "size": 5337959,
-          "sha256": "820d15bab8418d4995a61510b1ad4cd89349c98b121edd9dc87796ba8fff87df"
+          "path": "releases/1.2.0-beta.1/legacy-app-001.bin",
+          "size": 5375022,
+          "sha256": "685bff4bcc0c52474c9412d5ca51701862854733c5cb5f9a373a21939d0495a7"
         }
       ]
     }

@@ -1,6 +1,6 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.1.0-beta.5**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.1**.
 
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
@@ -23,6 +23,16 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.1 — operação comercial
+
+Ampliação do ERP com orçamentos, compras, recebimentos parciais/fiado, depósitos, lotes/séries, devoluções, entregas, OS com sinal, consignados, vasilhames, contas financeiras, auditoria e relatórios CSV/PDF. Fila offline em lotes completos, validação no servidor e proteção contra duplicação. XML repetido não recebe a mesma compra novamente. Backup com integridade e recuperação em destino vazio.
+
+**Atualizar:** no programa, abra **Minha conta → Atualizações do programa → Atualizar agora** e, quando puder, **Instalar e reiniciar**. Não precisa desinstalar. Cada pacote tem cerca de 5,4 MB.
+
+**Ativação única no banco:** faça um backup, abra **Operação comercial → Baixar script de ativação**, execute **todo** o arquivo em **Supabase do ERP da empresa → SQL Editor → New query → Run** e volte ao programa para **Verificar ativação**. O script depende das migrações anteriores do ERP e da sincronização. Não execute na Upfi Central. Até ativar, os novos módulos permanecem protegidos pela verificação de compatibilidade. Não foi aplicada uma migração ao seu banco remotamente.
+
+Esta é uma edição de homologação. Fiscal/bancos automáticos, assinatura remota, restaurante, moda com grades e outros fluxos setoriais avançados ainda não estão integrados. O guia detalhado acompanha o código privado da empresa. A publicação não inclui dados de clientes.
 
 ## Novidades da 1.1.0-beta.4
 
