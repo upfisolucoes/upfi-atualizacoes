@@ -2,6 +2,17 @@
 
 Canal público de distribuição. Versão atual: **1.2.0-beta.1**.
 
+## Baixar a atualização 1.2.0-beta.1
+
+Para quem já tem o programa instalado a partir da versão 1.1.0-beta.3:
+
+- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.1/Upfi-Atualizacao-1.2.0-beta.1-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.1/Upfi-Atualizacao-1.2.0-beta.1-Windows-7-8.zip)
+
+Use a mesma edição da instalação atual. Aguarde a sincronização das pendências, faça backup e feche o programa. Extraia todo o ZIP e abra **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. Cada ZIP inclui as instruções e o SHA-256 do executável, que é o mesmo pacote oferecido pelo atualizador do programa.
+
+Para liberar os novos módulos, abra **Operação comercial → Baixar script de ativação**, execute o arquivo completo em **Supabase do ERP da empresa → SQL Editor → New query → Run** e volte para **Verificar ativação**. Essa etapa é feita uma vez; não repita se já ativou. As migrações anteriores são pré-requisitos.
+
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
 - [Windows 10/11 de 64 bits — baixar ZIP](https://github.com/upfisolucoes/upfi-atualizacoes/archive/refs/heads/instalador-windows-atual.zip)
