@@ -1,13 +1,13 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.2.0-beta.3**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.4**.
 
-## Baixar a atualização 1.2.0-beta.3
+## Baixar a atualização 1.2.0-beta.4
 
 Para quem já possui o programa instalado a partir da versão 1.1.0-beta.3:
 
-- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.3/Upfi-Atualizacao-1.2.0-beta.3-Windows-10-11.zip)
-- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.3/Upfi-Atualizacao-1.2.0-beta.3-Windows-7-8.zip)
+- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.4/Upfi-Atualizacao-1.2.0-beta.4-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.4/Upfi-Atualizacao-1.2.0-beta.4-Windows-7-8.zip)
 
 Use a mesma edição da instalação atual. Aguarde a sincronização, faça backup e feche o programa. Extraia todo o ZIP e execute **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. O ZIP contém o mesmo pacote oferecido pelo atualizador do programa, as instruções e o SHA-256.
 
@@ -34,6 +34,12 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.4 — paletas e temas preservados
+
+Mantém o layout aprovado e volta a aplicar as cores escolhidas pela empresa. Na conta do proprietário, **Configurações → Empresa e identidade** oferece Azul Upfi, Verde, Violeta, Grafite, Terracota e Oceano, além dos campos de cores personalizadas. Há prévias claras e escuras; **Salvar identidade da empresa** aplica a seleção. O contraste é ajustado para manter legíveis botões e gráficos, sem mudar as cores salvas.
+
+A alternância **claro/escuro** continua no topo. Paleta e tema são independentes e permanecem ao reabrir, inclusive sem acesso ao servidor. A preferência pessoal de tema neste computador tem prioridade sobre o padrão da empresa. Não há migração adicional nem mudança nas permissões de acesso.
 
 ## Novidades da 1.2.0-beta.3 — novo layout empresarial
 
