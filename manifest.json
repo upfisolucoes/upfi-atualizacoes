@@ -1,32 +1,32 @@
 {
   "schema": 1,
-  "version": "1.2.0-beta.2",
-  "publishedAt": "2026-11-14T00:12:44.637Z",
-  "notes": "Correção de visualização nos temas claro e escuro: cartões de comissões com valores e rótulos legíveis; edição de vendedor com checkboxes compactos, permissões organizadas e botões sempre visíveis; revisão dos cartões, tabelas e formulários de estoque, caixa e operação comercial. Ajustes também em telas menores. Mantém as permissões cadastradas e os dados existentes. Para quem já ativou a operação comercial na versão 1.2.0-beta.1, não há novo SQL a executar. Atualize quando puder e confirme Instalar e reiniciar; não precisa desinstalar.",
+  "version": "1.2.0-beta.3",
+  "publishedAt": "2026-11-14T19:03:26.946Z",
+  "notes": "Novo visual empresarial do Upfi ERP: navegação organizada em Operação, Cadastros, Financeiro e Gestão; cabeçalho com empresa e contexto; indicadores compactos; tabelas e formulários com bordas discretas e tipografia uniforme; login redesenhado. Temas claro/escuro e menu próprio para telas menores, com pesquisa por Ctrl K, Escape e foco acessível. O resumo comercial mostra operações em aberto. Mantém dados, cálculos financeiros, regras de acesso e sincronização. Não exige desinstalação. Quem já ativou a operação comercial na 1.2.0-beta.1 não precisa executar novo SQL.",
   "artifacts": {
     "modern": {
       "kind": "app",
       "runtime": "45.3.0",
-      "size": 5375737,
-      "sha256": "9948c5a03ddc71a8abb65196412902b2afe8d0091b37f64eae64b26ae6a7a091",
+      "size": 5380317,
+      "sha256": "933d724b3d8106e99bd7932194b322d3bd67e0145ef7bf46bd84d33ac800935f",
       "parts": [
         {
-          "path": "releases/1.2.0-beta.2/modern-app-001.bin",
-          "size": 5375737,
-          "sha256": "9948c5a03ddc71a8abb65196412902b2afe8d0091b37f64eae64b26ae6a7a091"
+          "path": "releases/1.2.0-beta.3/modern-app-001.bin",
+          "size": 5380317,
+          "sha256": "933d724b3d8106e99bd7932194b322d3bd67e0145ef7bf46bd84d33ac800935f"
         }
       ]
     },
     "legacy": {
       "kind": "app",
       "runtime": "22.3.27",
-      "size": 5375709,
-      "sha256": "d4af44ee2044739da503abad2959649873e0c5fd0b4f0a64cc9eee44c4ebfd37",
+      "size": 5380254,
+      "sha256": "d235e65bc889afe438c624eb425fb8f3d3328b0287016d2f9da0f7125f31fd55",
       "parts": [
         {
-          "path": "releases/1.2.0-beta.2/legacy-app-001.bin",
-          "size": 5375709,
-          "sha256": "d4af44ee2044739da503abad2959649873e0c5fd0b4f0a64cc9eee44c4ebfd37"
+          "path": "releases/1.2.0-beta.3/legacy-app-001.bin",
+          "size": 5380254,
+          "sha256": "d235e65bc889afe438c624eb425fb8f3d3328b0287016d2f9da0f7125f31fd55"
         }
       ]
     }

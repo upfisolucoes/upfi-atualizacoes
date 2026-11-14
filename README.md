@@ -1,13 +1,13 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.2.0-beta.2**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.3**.
 
-## Baixar a atualização 1.2.0-beta.2
+## Baixar a atualização 1.2.0-beta.3
 
 Para quem já possui o programa instalado a partir da versão 1.1.0-beta.3:
 
-- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.2/Upfi-Atualizacao-1.2.0-beta.2-Windows-10-11.zip)
-- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.2/Upfi-Atualizacao-1.2.0-beta.2-Windows-7-8.zip)
+- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.3/Upfi-Atualizacao-1.2.0-beta.3-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.3/Upfi-Atualizacao-1.2.0-beta.3-Windows-7-8.zip)
 
 Use a mesma edição da instalação atual. Aguarde a sincronização, faça backup e feche o programa. Extraia todo o ZIP e execute **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. O ZIP contém o mesmo pacote oferecido pelo atualizador do programa, as instruções e o SHA-256.
 
@@ -34,6 +34,12 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.3 — novo layout empresarial
+
+Novo visual próprio da Upfi: navegação em Operação, Cadastros, Financeiro e Gestão; cabeçalho com empresa e contexto; indicadores em uma faixa compacta; distribuição financeira em saldos; tabelas, formulários e controles uniformes; login redesenhado. Nos computadores menores, o menu abre por botão e mantém pesquisa por Ctrl K, fechamento por Escape e foco acessível. Os temas claro/escuro permanecem disponíveis.
+
+O resumo comercial mostra quantidades reais de operações em aberto. A apresentação mudou, preservando dados, cálculos financeiros, permissões e sincronização. Nenhum cadastro demonstrativo é criado. Para quem já ativou a operação comercial, não há migração adicional.
 
 ## Novidades da 1.2.0-beta.2 — cartões e permissões legíveis
 
