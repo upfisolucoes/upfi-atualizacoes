@@ -1,17 +1,17 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.2.0-beta.1**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.2**.
 
-## Baixar a atualização 1.2.0-beta.1
+## Baixar a atualização 1.2.0-beta.2
 
-Para quem já tem o programa instalado a partir da versão 1.1.0-beta.3:
+Para quem já possui o programa instalado a partir da versão 1.1.0-beta.3:
 
-- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.1/Upfi-Atualizacao-1.2.0-beta.1-Windows-10-11.zip)
-- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.1/Upfi-Atualizacao-1.2.0-beta.1-Windows-7-8.zip)
+- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.2/Upfi-Atualizacao-1.2.0-beta.2-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.2/Upfi-Atualizacao-1.2.0-beta.2-Windows-7-8.zip)
 
-Use a mesma edição da instalação atual. Aguarde a sincronização das pendências, faça backup e feche o programa. Extraia todo o ZIP e abra **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. Cada ZIP inclui as instruções e o SHA-256 do executável, que é o mesmo pacote oferecido pelo atualizador do programa.
+Use a mesma edição da instalação atual. Aguarde a sincronização, faça backup e feche o programa. Extraia todo o ZIP e execute **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. O ZIP contém o mesmo pacote oferecido pelo atualizador do programa, as instruções e o SHA-256.
 
-Para liberar os novos módulos, abra **Operação comercial → Baixar script de ativação**, execute o arquivo completo em **Supabase do ERP da empresa → SQL Editor → New query → Run** e volte para **Verificar ativação**. Essa etapa é feita uma vez; não repita se já ativou. As migrações anteriores são pré-requisitos.
+**Quem já ativou os módulos na versão 1.2.0-beta.1 não precisa executar novo SQL.** Caso ainda não tenha ativado a operação comercial, o programa mantém o botão para baixar o script e verificar a ativação no Supabase da empresa.
 
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
@@ -34,6 +34,10 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.2 — cartões e permissões legíveis
+
+Corrige o fundo e o contraste dos cartões de comissões nos temas claro/escuro. As permissões do vendedor ficam organizadas em opções com checkboxes compactos e rótulos clicáveis; os botões de salvar/cancelar permanecem visíveis. Estoque, caixa, configurações e operação comercial também foram revisados, inclusive em telas menores. Não altera direitos de acesso nem exige migração adicional para quem já ativou a 1.2.0-beta.1.
 
 ## Novidades da 1.2.0-beta.1 — operação comercial
 
