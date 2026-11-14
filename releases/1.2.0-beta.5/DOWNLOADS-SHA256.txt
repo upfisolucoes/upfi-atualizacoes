@@ -1,0 +1,2 @@
+f43f9bb0b6b43eae423fa6ffdd6cfa36d9c3edb9db2a57c64c1b5020794f2eb6  Upfi-Atualizacao-1.2.0-beta.5-Windows-10-11.zip
+9496d17e33f71c5e31edae58e4168bdc2ea982875bd001214e83d475427933e7  Upfi-Atualizacao-1.2.0-beta.5-Windows-7-8.zip

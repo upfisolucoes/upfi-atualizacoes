@@ -1,13 +1,13 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.2.0-beta.4**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.5**.
 
-## Baixar a atualização 1.2.0-beta.4
+## Baixar a atualização 1.2.0-beta.5
 
 Para quem já possui o programa instalado a partir da versão 1.1.0-beta.3:
 
-- [Atualização Windows 10/11 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.4/Upfi-Atualizacao-1.2.0-beta.4-Windows-10-11.zip)
-- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP (5,4 MB)](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.4/Upfi-Atualizacao-1.2.0-beta.4-Windows-7-8.zip)
+- [Atualização Windows 10/11 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.5/Upfi-Atualizacao-1.2.0-beta.5-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.5/Upfi-Atualizacao-1.2.0-beta.5-Windows-7-8.zip)
 
 Use a mesma edição da instalação atual. Aguarde a sincronização, faça backup e feche o programa. Extraia todo o ZIP e execute **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. O ZIP contém o mesmo pacote oferecido pelo atualizador do programa, as instruções e o SHA-256.
 
@@ -34,6 +34,10 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.5 — versão visível no rodapé
+
+O rodapé do sistema mostra **Upfi ERP · Versão 1.2.0-beta.5**, também na tela de login. O número corresponde à versão instalada e acompanha as próximas atualizações. Texto legível nos temas claro/escuro e em telas menores. Mantém o layout aprovado e as paletas de cores; não exige migração adicional.
 
 ## Novidades da 1.2.0-beta.4 — paletas e temas preservados
 
