@@ -1,32 +1,32 @@
 {
   "schema": 1,
-  "version": "1.2.0-beta.5",
-  "publishedAt": "2026-11-14T20:28:49.538Z",
-  "notes": "O rodapé do sistema agora mostra claramente Upfi ERP · Versão 1.2.0-beta.5. A identificação aparece também na tela de login e acompanha automaticamente a versão instalada. Mantém o layout aprovado, a escolha de paletas e os temas claro/escuro. Não exige novo SQL nem desinstalação para quem já ativou os módulos anteriores.",
+  "version": "1.2.0-beta.7",
+  "publishedAt": "2026-11-15T02:54:04.915Z",
+  "notes": "Adiciona Configurações > Segurança e dados para o proprietário zerar os cadastros e movimentos da empresa, com senha administrativa do PDV e confirmação ZERAR DADOS. Preserva usuários, permissões, configurações e outras empresas. Oferece acesso ao backup e impede que pendências offline antigas retornem à base limpa. Requer ativação única no Supabase: baixe o script na própria tela, execute o arquivo completo no SQL Editor do ERP da empresa e clique em Verificar dados. Instalar a atualização ou aplicar o script não apaga dados. Inclui também os ajustes de uso pelo navegador móvel, mantendo paletas e temas claro/escuro.",
   "artifacts": {
     "modern": {
       "kind": "app",
       "runtime": "45.3.0",
-      "size": 5381957,
-      "sha256": "d3f08c6d75ed00144b50771b0b241d74a50026620cf489534101ad8b64845ae1",
+      "size": 5386673,
+      "sha256": "231d1eb28c3fae1eb0111d541255017aa060ed23cde22ebbcf0f0a2bb1455884",
       "parts": [
         {
-          "path": "releases/1.2.0-beta.5/modern-app-001.bin",
-          "size": 5381957,
-          "sha256": "d3f08c6d75ed00144b50771b0b241d74a50026620cf489534101ad8b64845ae1"
+          "path": "releases/1.2.0-beta.7/modern-app-001.bin",
+          "size": 5386673,
+          "sha256": "231d1eb28c3fae1eb0111d541255017aa060ed23cde22ebbcf0f0a2bb1455884"
         }
       ]
     },
     "legacy": {
       "kind": "app",
       "runtime": "22.3.27",
-      "size": 5381962,
-      "sha256": "945bd9fceac1862a487dc78d7d8dcf0715cd13535a6887ca37c0cedf74aaa052",
+      "size": 5386693,
+      "sha256": "2bc6668ae559e8fef4ed5ff8346ee34d27954c8f651fa016425ff14bdb3af134",
       "parts": [
         {
-          "path": "releases/1.2.0-beta.5/legacy-app-001.bin",
-          "size": 5381962,
-          "sha256": "945bd9fceac1862a487dc78d7d8dcf0715cd13535a6887ca37c0cedf74aaa052"
+          "path": "releases/1.2.0-beta.7/legacy-app-001.bin",
+          "size": 5386693,
+          "sha256": "2bc6668ae559e8fef4ed5ff8346ee34d27954c8f651fa016425ff14bdb3af134"
         }
       ]
     }

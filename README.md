@@ -1,17 +1,17 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.2.0-beta.5**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.7**.
 
-## Baixar a atualização 1.2.0-beta.5
+## Baixar a atualização 1.2.0-beta.7
 
 Para quem já possui o programa instalado a partir da versão 1.1.0-beta.3:
 
-- [Atualização Windows 10/11 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.5/Upfi-Atualizacao-1.2.0-beta.5-Windows-10-11.zip)
-- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.5/Upfi-Atualizacao-1.2.0-beta.5-Windows-7-8.zip)
+- [Atualização Windows 10/11 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.7/Upfi-Atualizacao-1.2.0-beta.7-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.7/Upfi-Atualizacao-1.2.0-beta.7-Windows-7-8.zip)
 
 Use a mesma edição da instalação atual. Aguarde a sincronização, faça backup e feche o programa. Extraia todo o ZIP e execute **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. O ZIP contém o mesmo pacote oferecido pelo atualizador do programa, as instruções e o SHA-256.
 
-**Quem já ativou os módulos na versão 1.2.0-beta.1 não precisa executar novo SQL.** Caso ainda não tenha ativado a operação comercial, o programa mantém o botão para baixar o script e verificar a ativação no Supabase da empresa.
+**Ativação única da limpeza:** no acesso do proprietário, abra **Configurações → Segurança e dados → Baixar script de ativação**. Execute todo o arquivo em **Supabase do ERP da empresa → SQL Editor → New query → Run** e volte ao sistema para **Verificar dados**. A atualização e o script instalam o recurso sem apagar dados. A exclusão exige uma ação posterior do proprietário com senha e confirmação. As migrações anteriores do ERP devem estar aplicadas.
 
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
@@ -34,6 +34,14 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.7 — limpeza com senha e uso no celular
+
+O proprietário pode abrir **Configurações → Segurança e dados**, conferir a quantidade de registros, acessar o backup e zerar a base operacional com a senha administrativa do PDV e a confirmação **ZERAR DADOS**. Usuários, permissões, configurações e outras empresas são preservados. Cinco falhas de senha bloqueiam tentativas por 15 minutos. A exclusão é atômica e uma requisição repetida não remove os cadastros criados depois da confirmação inicial.
+
+A sincronização identifica o ciclo da empresa e recusa gravações anteriores à limpeza. Pendências antigas de computadores que estavam sem internet ficam arquivadas na cópia local, disponíveis para exportação; não são reenviadas à base limpa. Edições antigas precisam ser atualizadas antes de voltar a gravar na empresa que foi zerada.
+
+Inclui a adaptação para navegador móvel da versão web 1.2.0-beta.6: controles por toque, atalho para o carrinho, janelas ajustadas à tela e ícone para adicionar à tela inicial. Mantém as paletas e os temas claro/escuro. O navegador exige internet; o modo offline continua na edição Windows.
 
 ## Novidades da 1.2.0-beta.5 — versão visível no rodapé
 
