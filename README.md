@@ -1,17 +1,17 @@
 # Atualizações do Upfi ERP
 
-Canal público de distribuição. Versão atual: **1.2.0-beta.7**.
+Canal público de distribuição. Versão atual: **1.2.0-beta.8**.
 
-## Baixar a atualização 1.2.0-beta.7
+## Baixar a atualização 1.2.0-beta.8
 
 Para quem já possui o programa instalado a partir da versão 1.1.0-beta.3:
 
-- [Atualização Windows 10/11 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.7/Upfi-Atualizacao-1.2.0-beta.7-Windows-10-11.zip)
-- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.7/Upfi-Atualizacao-1.2.0-beta.7-Windows-7-8.zip)
+- [Atualização Windows 10/11 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.8/Upfi-Atualizacao-1.2.0-beta.8-Windows-10-11.zip)
+- [Atualização Windows 7 SP1/8/8.1 — baixar ZIP](https://raw.githubusercontent.com/upfisolucoes/upfi-atualizacoes/main/releases/1.2.0-beta.8/Upfi-Atualizacao-1.2.0-beta.8-Windows-7-8.zip)
 
 Use a mesma edição da instalação atual. Aguarde a sincronização, faça backup e feche o programa. Extraia todo o ZIP e execute **Upfi-Atualizacao-…exe**. O programa atualiza e reabre, preservando o perfil local. Não precisa desinstalar. O ZIP contém o mesmo pacote oferecido pelo atualizador do programa, as instruções e o SHA-256.
 
-**Ativação única da limpeza:** no acesso do proprietário, abra **Configurações → Segurança e dados → Baixar script de ativação**. Execute todo o arquivo em **Supabase do ERP da empresa → SQL Editor → New query → Run** e volte ao sistema para **Verificar dados**. A atualização e o script instalam o recurso sem apagar dados. A exclusão exige uma ação posterior do proprietário com senha e confirmação. As migrações anteriores do ERP devem estar aplicadas.
+**Quem já ativou a limpeza na versão 1.2.0-beta.7 não precisa repetir o SQL.** Para a primeira ativação: no acesso do proprietário, abra **Configurações → Segurança e dados → Baixar script de ativação**. Execute todo o arquivo em **Supabase do ERP da empresa → SQL Editor → New query → Run** e volte ao sistema para **Verificar dados**. A atualização e o script instalam o recurso sem apagar dados. A exclusão exige uma ação posterior do proprietário com senha e confirmação. As migrações anteriores do ERP devem estar aplicadas.
 
 ## Instalar pela primeira vez ou ativar o recurso de atualização
 
@@ -34,6 +34,12 @@ As atualizações habituais têm cerca de 5 MB por edição e mantêm o runtime.
 Os instaladores continuam destinados à homologação no Windows de destino e ainda não possuem assinatura digital. A edição Windows 7/8.1 usa um runtime sem manutenção de segurança.
 
 Este repositório contém somente arquivos de distribuição, instruções e o catálogo. Não publique cadastros, cópias de segurança, senhas ou chaves administrativas.
+
+## Novidades da 1.2.0-beta.8 — senha solicitada ao pedir a limpeza
+
+Ao clicar em **Zerar dados da empresa**, uma janela pede a **senha do administrador**. Digite a senha administrativa do PDV e **ZERAR DADOS**, depois clique em **Confirmar e zerar dados**. Abrir a janela não envia uma exclusão. Cancelar, usar Escape ou clicar no fundo fecha a janela e limpa os campos. A senha continua conferida no servidor; uma senha incorreta preserva os registros.
+
+Mantém a proteção contra pendências offline antigas e o acesso restrito ao proprietário. Usuários e configurações são preservados. Quem já ativou o recurso na 1.2.0-beta.7 não precisa repetir o SQL.
 
 ## Novidades da 1.2.0-beta.7 — limpeza com senha e uso no celular
 
